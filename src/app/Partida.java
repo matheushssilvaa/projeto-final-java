@@ -46,13 +46,13 @@ public class Partida {
 		System.out.println("Time 1: " + this.time1.getNome() + " X " + "Time 2: " + this.time2.getNome());
 		System.out.println("\n====== Placar e Jogadores ======\n");
 		for (Jogador jogador : golsDeTime1) {
-	        System.out.println("Gols do time: " + this.time1.getNome() + " " + this.golsTime1 + " Jogador: " + jogador.getNome());
+	        System.out.println("Gols do time " + this.time1.getNome() + ": " + this.golsTime1 + "\nJogador: " + jogador.getNome());
 	    }
 		
 		for (Jogador jogador : golsDeTime2) {
-	        System.out.println("Gols do time: " + this.time2.getNome() + " " + this.golsTime2 + " Jogador: " + jogador.getNome());
+			System.out.println("Gols do time " + this.time2.getNome() + ": " + this.golsTime2 + "\nJogador: " + jogador.getNome());
 	    }
-			
+		
 		System.out.println("\n====== Arbitros ======\n");
 		if(arbitros.size() > 3) {
 			System.out.println("Limite de 3 arbitros atingidos");

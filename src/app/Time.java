@@ -15,7 +15,7 @@ public class Time {
 		this.nome = nome;
 	}
 	
-	public ArrayList<Jogador> getJogador() {
+	public ArrayList<Jogador> getJogador(int index) {
 		return jogadores;
 	}
 	
@@ -36,6 +36,7 @@ public class Time {
 		if(jogadores.size() == 0) {
 			System.out.println("Não existe jogadores cadastrados.");
 		}
+		
 		for(Jogador j: jogadores) {
 			if(jogadores.size() == 0) {
 				System.out.println("Nenhum jogador cadastrado");

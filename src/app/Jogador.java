@@ -37,6 +37,10 @@ public class Jogador {
 		this.posicao = posicao;
 	}
 	
+	public String toString() {
+		return "nome: " + nome + "\n" + "numero: " + numero + "\n" + "posição: " + posicao + "\n" ;
+	}
+	
 	public void exibirDados() {
 		System.out.println("====== Jogador ======");
 		System.out.println("Nome: " + this.getNome());

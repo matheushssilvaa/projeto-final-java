@@ -28,4 +28,11 @@ public class Arbitro {
 	public String toString() {
 		return "nome: " + nome + "\n" + "tipo: " + tipo ;
 	}
+	
+	public void exibirDados() {
+		System.out.println("====== Arbitros ======");
+		System.out.println("Nome: " + this.getNome());
+		System.out.println("Tipo: " + this.getTipo());
+	}
+	
 }
